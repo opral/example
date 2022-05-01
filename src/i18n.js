@@ -56,20 +56,20 @@ function format(id, args, errors) {
   bundle.addResource(resources[_locale]);
   const pattern = getPattern(id, bundle);
   if (pattern === undefined) {
-    console.error(
-      `Message with id "${id}" does not exist for language code "${_locale}".`
-    );
-    bundle.addResource(resources[baseLanguageCode]);
-    const fallbackPattern = getPattern(id, bundle);
-    if (fallbackPattern) {
-      console.info("Using fallback pattern.");
-      return bundle.formatPattern(fallbackPattern, args, errors);
-    } else {
-      console.error(
-        `No fallback exists. Are you sure that the id "${id}" exists?`
-      );
-      return id;
-    }
+    return `missing "${id}"`;
+
+    // not using fallback to illustrate problem of missing translations
+    // bundle.addResource(resources[baseLanguageCode]);
+    // const fallbackPattern = getPattern(id, bundle);
+    // if (fallbackPattern) {
+    //   console.info("Using fallback pattern.");
+    //   return bundle.formatPattern(fallbackPattern, args, errors);
+    // } else {
+    //   console.error(
+    //     `No fallback exists. Are you sure that the id "${id}" exists?`
+    //   );
+    //   return id;
+    // }
   }
   return bundle.formatPattern(pattern, args, errors);
 }

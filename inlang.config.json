@@ -3,6 +3,7 @@
   "fileFormat": "fluent",
   "pathPattern": "./src/resources/{languageCode}.ftl",
   "baseLanguageCode": "en",
+  "languageCodes": ["en", "de", "es"],
   "extractPatternReplacementOptions": [
     "$t('{id}')",
     "{$t('{id}')}",
