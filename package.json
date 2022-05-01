@@ -18,6 +18,9 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@fluent/bundle": "^0.17.1",
+    "js-cookie": "^3.0.1",
+    "rollup-plugin-string": "^3.0.0",
     "sirv-cli": "^2.0.0"
   }
 }

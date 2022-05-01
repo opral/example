@@ -1,4 +1,5 @@
 <script>
+  import { t } from "./i18n";
 </script>
 
 <main>
