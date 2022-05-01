@@ -1,2 +1,1 @@
-# demo
-Demo repository for inlang's web editor. 
+# Inlang demonstration repository
