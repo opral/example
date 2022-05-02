@@ -4,7 +4,6 @@ import { derived, get, writable } from "svelte/store";
 import de from "./resources/de.ftl";
 import en from "./resources/en.ftl";
 import es from "./resources/es.ftl";
-import fr from "./resources/fr.ftl";
 
 /**
  * Holds all available resources.
@@ -16,7 +15,6 @@ const resources = {
   de: new FluentResource(de),
   en: new FluentResource(en),
   es: new FluentResource(es),
-  fr: new FluentResource(fr),
 };
 
 /**
