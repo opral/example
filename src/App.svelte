@@ -20,21 +20,21 @@
         panel="en"
         on:click={() => {
           $locale = "en";
-        }}>🇬🇧 English</sl-tab
+        }}>{"🇬🇧 English"}</sl-tab
       >
       <sl-tab
         slot="nav"
         panel="de"
         on:click={() => {
           $locale = "de";
-        }}>🇩🇪 German</sl-tab
+        }}>{"🇩🇪 German"}</sl-tab
       >
       <sl-tab
         slot="nav"
         panel="es"
         on:click={() => {
           $locale = "es";
-        }}>🇪🇸 Spanish</sl-tab
+        }}>{"🇪🇸 Spanish"}</sl-tab
       >
     </sl-tab-group>
   </div>
