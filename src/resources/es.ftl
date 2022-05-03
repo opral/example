@@ -1,2 +1,2 @@
-title = Bienvenido a esta demostración.
+title = Taco
 card-title = Hola
