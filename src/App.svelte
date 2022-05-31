@@ -57,6 +57,8 @@
         <sl-rating />
       </div>
     </sl-card>
+
+    <p>{$t("sf")}</p>
   </div>
 </main>
 
