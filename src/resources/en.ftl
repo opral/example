@@ -4,3 +4,6 @@ card-description = This kitten is as cute as he is playful. Bring him home today
 button-info = More Info
 select-language = Select your language:
 sf = Hallo in San Francisco
+hehe = Hallso wihfaoinfsnio
+hell = Hallso ps
+jupyter = jupyter is a nice planet
