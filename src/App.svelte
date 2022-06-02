@@ -63,6 +63,9 @@
     <p>{$t("hell")}</p>
 
     <p>{$t("jupyter")}</p>
+    ]
+
+    <p>{$t("how-weather")}</p>
   </div>
 </main>
 
