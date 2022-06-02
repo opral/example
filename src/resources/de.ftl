@@ -5,3 +5,4 @@ card-description = Dieses Kätzchen ist ebenso niedlich wie verspielt. Holen Sie
 select-language = Wählen Sie Ihre Sprache:
 sf = Hallo in San Francisco
 jupyter = jupyter ist ein schöner Planet
+how-weather = Heute ist ein heißer Tag in NYC.

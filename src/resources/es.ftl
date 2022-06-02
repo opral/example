@@ -5,3 +5,4 @@ card-description = Este gatito es tan bonito como juguetón. ¡Llévatelo a casa
 select-language = Seleccione su idioma:
 sf = Hallo en San Francisco
 jupyter = jupyter es un bonito planeta
+how-weather = Hoy es un día caluroso en NYC.
