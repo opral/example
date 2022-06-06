@@ -8,3 +8,5 @@ hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter is a nice planet
 how-weather = Today is a hot day in NYC.
+fred = Hi Fred, how is the weather in the UK?
+jupy = Jupyter notebook.

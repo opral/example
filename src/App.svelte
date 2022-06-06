@@ -58,14 +58,9 @@
       </div>
     </sl-card>
 
-    <p>{$t("sf")}</p>
+    <p>{$t("fred")}</p>
 
-    <p>{$t("hell")}</p>
-
-    <p>{$t("jupyter")}</p>
-    ]
-
-    <p>{$t("how-weather")}</p>
+    <p>{$t("jupy")}</p>
   </div>
 </main>
 
