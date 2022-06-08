@@ -8,3 +8,4 @@ jupyter = jupyter ist ein schöner Planet
 how-weather = Heute ist ein heißer Tag in NYC.
 fred = Hallo Fred, wie ist das Wetter in Großbritannien?
 igor = Hallo Igor!
+jupy = Jupyter-Notizbuch.
