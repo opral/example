@@ -61,6 +61,8 @@
     <p>{$t("fred")}</p>
 
     <p>{$t("jupy")}</p>
+
+    <p>{$t('igor')}</p>
   </div>
 </main>
 
