@@ -9,3 +9,4 @@ how-weather = Hoy es un día caluroso en NYC.
 fred = Hola Fred, ¿cómo está el tiempo en el Reino Unido?
 igor = ¡Hola Igor!
 jupy = Jupyter notebook.
+hell = Hallso ps
