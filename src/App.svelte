@@ -58,11 +58,7 @@
       </div>
     </sl-card>
 
-    <p>{$t("fred")}</p>
-
-    <p>{$t("jupy")}</p>
-
-    <p>{$t('igor')}</p>
+    <p>{$t("charles")}</p>
   </div>
 </main>
 

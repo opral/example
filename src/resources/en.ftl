@@ -11,3 +11,5 @@ how-weather = Today is a hot day in NYC.
 fred = Hi Fred, how is the weather in the UK?
 jupy = Jupyter notebook.
 igor = Hi Igor!
+hfshs = Learn more
+charles = Hi Charles, how are you today?
