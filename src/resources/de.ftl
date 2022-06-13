@@ -11,3 +11,4 @@ igor = Hallo Igor!
 jupy = Jupyter-Notizbuch.
 hell = Hallso ps
 hehe = Hallso wihfaoinfsnio
+charles = Hallo Charles, wie geht es dir heute?
