@@ -59,6 +59,10 @@
     </sl-card>
 
     <p>{$t("charles")}</p>
+
+    <p>{$t("macbook-air")}</p>
+
+    <p>{$t("root")}</p>
   </div>
 </main>
 

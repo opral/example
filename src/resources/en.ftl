@@ -14,3 +14,5 @@ igor = Hi Igor!
 hfshs = Learn more
 charles = Hi Charles, how are you today?
 tueday = Welcome to Tuesday.
+macbook-air = MacbOok Air
+root = Hello Root.vc
