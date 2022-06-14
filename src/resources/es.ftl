@@ -12,3 +12,4 @@ jupy = Jupyter notebook.
 hell = Hallso ps
 hehe = Hallso wihfaoinfsnio
 charles = Hola Charles, ¿cómo estás hoy?
+root = Hola Root.vc
