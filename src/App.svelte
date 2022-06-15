@@ -62,6 +62,8 @@
 
     <p>{$t("macbook-air")}</p>
 
+    <p>{$t('launchhouse')}</p>
+
     <p>{$t("root")}</p>
   </div>
 </main>
