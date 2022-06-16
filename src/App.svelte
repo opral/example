@@ -62,9 +62,13 @@
 
     <p>{$t("macbook-air")}</p>
 
-    <p>{$t('launchhouse')}</p>
+    <p>{$t("launchhouse")}</p>
 
     <p>{$t("root")}</p>
+
+    <p>
+      {$t("add-basket")}
+    </p>
   </div>
 </main>
 
