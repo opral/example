@@ -69,6 +69,8 @@
     <p>
       {$t("add-basket")}
     </p>
+
+    <p>{$t('viet')}</p>
   </div>
 </main>
 

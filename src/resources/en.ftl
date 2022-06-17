@@ -18,3 +18,4 @@ macbook-air = MacbOok Air
 root = Hello Root.vc
 launchhouse = I am at LaunchHouse
 add-basket = Add basket
+viet = Hello Viet
