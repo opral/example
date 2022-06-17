@@ -15,3 +15,4 @@ charles = Hola Charles, ¿cómo estás hoy?
 root = Hola Root.vc
 launchhouse = Estoy en LaunchHouse
 add-basket = Añadir a la cesta
+viet = Hola Viet

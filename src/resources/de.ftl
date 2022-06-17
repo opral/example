@@ -15,3 +15,4 @@ charles = Hallo Charles, wie geht es dir morgen?
 root = Hallo Root.vc
 launchhouse = Ich bin bei LaunchHouse
 add-basket = Korb hinzufügen
+viet = Hallo Viet
