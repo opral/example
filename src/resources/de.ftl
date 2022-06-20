@@ -16,3 +16,4 @@ root = Hallo Root.vc
 launchhouse = Ich bin bei LaunchHouse
 add-basket = Korb hinzufügen
 viet = Hallo Viet, wie geht es dir morgen?
+hfshs = Mehr erfahren
