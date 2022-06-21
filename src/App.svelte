@@ -71,6 +71,8 @@
     </p>
 
     <p>{$t('viet')}</p>
+
+    <p>Hello World</p>
   </div>
 </main>
 

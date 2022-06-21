@@ -1,0 +1,9 @@
+{
+  "common.or": "or",
+  "common.and": "and",
+  "main.title": "Svelte Intl Precompile",
+  "main.subtitle": "The i18n library for Svelte that analyzes and compiles your translations at build time",
+  "playground.title": "Playground",
+  "introduction.title": "Introduction",
+  "introduction.subsection.why-use-it": "Why you'd want to use it?"
+}
