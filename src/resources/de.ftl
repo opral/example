@@ -18,3 +18,4 @@ add-basket = Korb hinzufügen
 viet = Hallo Viet, wie geht es dir morgen?
 hfshs = Mehr erfahren
 tueday = Willkommen zum Dienstag.
+macbook-air = MacbOok Air

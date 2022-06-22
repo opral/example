@@ -18,3 +18,4 @@ add-basket = Añadir a la cesta
 viet = Hola Viet
 hfshs = Más información
 tueday = Bienvenidos al martes.
+macbook-air = MacbOok Air
