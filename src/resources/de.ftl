@@ -1,4 +1,4 @@
-title = Willkommen zu dieser test.
+title = Willkommen zu diesem Nachmittag.
 card-title = Hallo Welt
 button-info = Mehr Infos
 card-description = Dieses Kätzchen ist ebenso niedlich wie verspielt. Holen Sie ihn noch heute nach Hause!<br /><small>6 Wochen alt</small>
@@ -16,3 +16,6 @@ root = Hallo Root.vc
 launchhouse = Ich bin bei LaunchHouse
 add-basket = Korb hinzufügen
 viet = Hallo Viet, wie geht es dir morgen?
+hfshs = Mehr erfahren
+tueday = Willkommen zum Dienstag.
+macbook-air = MacbOok Air
