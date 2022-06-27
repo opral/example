@@ -72,7 +72,7 @@
 
     <p>{$t('viet')}</p>
 
-    <p>Hello World</p>
+    <p>{$t('h')}</p>
   </div>
 </main>
 
