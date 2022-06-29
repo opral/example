@@ -64,15 +64,7 @@
 
     <p>{$t("launchhouse")}</p>
 
-    <p>{$t("root")}</p>
-
-    <p>
-      {$t("add-basket")}
-    </p>
-
-    <p>{$t('viet')}</p>
-
-    <p>{$t('h')}</p>
+    <p>Hardcoded text</p>
   </div>
 </main>
 
