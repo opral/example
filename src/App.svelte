@@ -1,14 +1,5 @@
 <script>
   import { t, locale } from "./i18n";
-  import { onMount } from "svelte";
-
-  let languageSelector;
-
-  onMount(() => {
-    // languageSelector.addEventListener("sl-tab-hide", (event) => {
-    //   console.log(event);
-    // });
-  });
 </script>
 
 <nav class="container bg-gray-100 rounded-b py-2 px-4">
@@ -57,16 +48,10 @@
         <sl-rating />
       </div>
     </sl-card>
-
-    <p>{$t("charles")}</p>
-
-    <p>{$t("macbook-air")}</p>
-
-    <p>{$t("launchhouse")}</p>
-
-    <p>Hardcoded text</p>
   </div>
 </main>
+
+<p>Hi David</p>
 
 <style>
   .card-overview {
