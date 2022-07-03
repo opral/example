@@ -51,6 +51,8 @@
   </div>
 </main>
 
+<p>{$t("david")}</p>
+
 <style>
   .card-overview {
     max-width: 300px;
