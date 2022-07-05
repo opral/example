@@ -51,7 +51,7 @@
   </div>
 </main>
 
-<p>{$t("david")}</p>
+<p>{$t("string")}</p>
 
 <style>
   .card-overview {
