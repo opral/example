@@ -10,3 +10,4 @@ jupyter = jupyter is a nice planet
 how-weather = Today is a hot day in NYC.
 david = Hi David!
 string = This is a hardcoded string.
+berlin = Hello from Berlin
