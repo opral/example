@@ -7,5 +7,3 @@ sf = Hallo in New York
 hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter is a nice planet
-how-weather = Today is a hot day in NYC.
-david = Hi David!
