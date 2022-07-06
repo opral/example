@@ -51,7 +51,7 @@
   </div>
 </main>
 
-<p>This is a hardcoded string.</p>
+<p>{$t("exr")}</p>
 
 <style>
   .card-overview {

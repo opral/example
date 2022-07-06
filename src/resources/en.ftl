@@ -7,3 +7,4 @@ sf = Hallo in New York
 hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter is a nice planet
+exr = Hardcoded string
