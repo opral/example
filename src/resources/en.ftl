@@ -17,3 +17,4 @@ shared-photos =
         [female] her stream
        *[other] their stream
     }.
+finance = Hi Forget Finance!
