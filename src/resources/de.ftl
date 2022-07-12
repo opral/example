@@ -4,3 +4,4 @@ card-description = Dieses Kätzchen ist ebenso niedlich wie verspielt. Holen Sie
 select-language = Wählen Sie Ihre Sprache:
 button-info = Mehr Infos
 sf = Hallo in New York
+hello = Hallo Welt 12345
