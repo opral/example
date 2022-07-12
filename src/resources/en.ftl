@@ -18,3 +18,4 @@ shared-photos =
        *[other] their stream
     }.
 finance = Hi Forget Finance!
+hello = Hello world 12345
