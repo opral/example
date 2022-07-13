@@ -6,3 +6,4 @@ button-info = Más información
 sf = Hallo en Nueva York
 hello = Hola mundo 12345
 hehe = Hallso wihfaoinfsnio
+hell = Hallso ps
