@@ -19,3 +19,4 @@ shared-photos =
     }.
 finance = Hi Forget Finance!
 hello = Hello world 12345
+berlin = Hello today from Berlin

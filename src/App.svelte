@@ -53,6 +53,8 @@
 
 <p>{$t("hello")}</p>
 
+<p>{$t("berlin")}</p>
+
 <style>
   .card-overview {
     max-width: 300px;
