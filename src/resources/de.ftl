@@ -7,3 +7,4 @@ sf = Hallo in New York
 hello = Hallo Welt 12345
 hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
+jupyter = jupyter ist ein schöner Planet
