@@ -5,3 +5,4 @@ select-language = Seleccione su idioma:
 button-info = Más información
 sf = Hallo en Nueva York
 hello = Hola mundo 12345
+hehe = Hallso wihfaoinfsnio
