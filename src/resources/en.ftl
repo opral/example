@@ -20,3 +20,6 @@ shared-photos =
 finance = Hi Forget Finance!
 hello = Hello world 12345
 berlin = Hello today from Berlin
+projecta = Hallo project a
+rollei = Rollei is a nice photo company
+moritz = Hallo Thomas und Moritz
