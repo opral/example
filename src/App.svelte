@@ -51,9 +51,7 @@
   </div>
 </main>
 
-<p>{$t("hello")}</p>
-
-<p>{$t("berlin")}</p>
+<p>{$t("moritz")}</p>
 
 <style>
   .card-overview {
