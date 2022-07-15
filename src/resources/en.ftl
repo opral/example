@@ -8,13 +8,3 @@ hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter is a nice planet
 exr = Hardcoded string
-shared-photos =
-    { $userName } { $photoCount ->
-        [one] added a new photo
-       *[other] added { $photoCount } new photos
-    } to { $userGender ->
-        [male] his stream
-        [female] her stream
-       *[other] their stream
-    }.
-storm = Hello Storm
