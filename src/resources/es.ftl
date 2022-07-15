@@ -10,3 +10,4 @@ hell = Hallso ps
 jupyter = jupyter es un bonito planeta
 moritz = Hola Moritz
 exr = Cadena codificada
+finance = Hola ¡Olvídate de las finanzas!
