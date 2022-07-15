@@ -9,3 +9,4 @@ hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter ist ein schöner Planet
 moritz = Hallo Thomas und Moritz
+exr = Hartkodierte Zeichenkette

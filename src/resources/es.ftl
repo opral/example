@@ -9,3 +9,4 @@ hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter es un bonito planeta
 moritz = Hola Moritz
+exr = Cadena codificada
