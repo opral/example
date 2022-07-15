@@ -53,6 +53,9 @@
 
 <p>{$t("storm")}</p>
 
+
+<p>{$t('nauta')}</p>
+
 <style>
   .card-overview {
     max-width: 300px;

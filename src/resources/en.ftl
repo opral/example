@@ -8,3 +8,5 @@ hehe = Hallso wihfaoinfsnio
 hell = Hallso ps
 jupyter = jupyter is a nice planet
 exr = Hardcoded string
+storm = hello storm
+nauta = Hello Nauta
