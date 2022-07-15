@@ -1,2 +1,1 @@
-
 nauta = Hello Nauta
