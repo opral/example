@@ -17,9 +17,4 @@ shared-photos =
         [female] her stream
        *[other] their stream
     }.
-finance = Hi Forget Finance!
-hello = Hello world 12345
-berlin = Hello today from Berlin
-projecta = Hallo project a
-rollei = Rollei is a nice photo company
-moritz = Hello Moritz
+storm = Hello Storm
