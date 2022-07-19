@@ -51,10 +51,7 @@
   </div>
 </main>
 
-<p>{$t("storm")}</p>
-
-
-<p>{$t('nauta')}</p>
+<p>{$t("day")}</p>
 
 <style>
   .card-overview {
