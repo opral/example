@@ -51,6 +51,8 @@
   </div>
 </main>
 
+<button on:click={() => console.log("hello")}> {$t("button-hello")} </button>
+
 <style>
   .card-overview {
     max-width: 300px;
