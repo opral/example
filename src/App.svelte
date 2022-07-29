@@ -5,7 +5,7 @@
 <nav class="container bg-gray-100 rounded-b py-2 px-4">
   <div class="flex flex-col items-center">
     <p>{$t("select-language")}</p>
-    <sl-tab-group bind:this={languageSelector}>
+    <sl-tab-group>
       <sl-tab
         slot="nav"
         panel="en"
@@ -50,8 +50,6 @@
     </sl-card>
   </div>
 </main>
-
-<p>{$t("day")}</p>
 
 <style>
   .card-overview {
