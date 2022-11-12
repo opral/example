@@ -3,5 +3,9 @@ module.exports = {
   theme: {
     extend: {},
   },
+  // @ts-ignore
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 };

@@ -5,6 +5,9 @@ export default defineConfig({
   plugins: [solidPlugin()],
   server: {
     port: 3000,
+    hmr: {
+      host: "localhost",
+    },
   },
   build: {
     target: "esnext",
