@@ -1,5 +1,5 @@
 /**
- * @type {import('./types.js').Ids}
+ * @type {import('./types.js').Resource}
  */
 export default {
   shoeCardTitle: "Buy {{name}}",

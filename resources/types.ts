@@ -1,7 +1,7 @@
 /**
  * The ids that need to be defined in resources.
  */
-export type Ids = {
+export type Resource = {
   shoeCardTitle: string;
   inputQuestion: string;
   new: string;
