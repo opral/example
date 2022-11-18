@@ -2,10 +2,10 @@
 export const config = {
   referenceBundleId: "en",
   bundleIds: ["en", "de", "fr"],
-  readBundles: async () => {
+  readBundles: async ({ $import }) => {
     return await Promise.all(
       config.bundleIds.map(async (id) => {
-        const resource = await import(`./resources/${id}.js`);
+        const resource = await $import(`./resources/${id}.js`);
         return bundleFrom(resourceFrom(resource), id);
       })
     );
