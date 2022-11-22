@@ -5,7 +5,7 @@ export const config = {
   readBundles: async ({ $import }) => {
     return await Promise.all(
       config.bundleIds.map(async (id) => {
-        const resource = await $import(`./resources/${id}.js`);
+        const resource = (await $import(`./resources/${id}.js`)).default;
         return bundleFrom(resourceFrom(resource), id);
       })
     );
