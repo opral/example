@@ -37,6 +37,7 @@ function bundleFrom(resource, bundleId) {
 function resourceFrom(obj) {
   return {
     type: "Resource",
+    id: { type: "Identifier", name: "default" },
     body: Object.entries(obj).map(([key, value]) => {
       return {
         type: "Message",
