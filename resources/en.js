@@ -1,6 +1,3 @@
-/**
- * @type {import('./types.js').Resource}
- */
 export default {
   shoeCardTitle: "Buy {{name}}",
   inputQuestion: "What is the name of the shoe?",

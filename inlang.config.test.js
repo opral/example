@@ -12,4 +12,7 @@ const $import = initialize$import({
 // @ts-ignore
 const bundles = await config.readBundles({ $fs: fs, $import });
 
-console.log(query(bundles[0]).ids());
+console.log(query(bundles[0]).includedMessageIds());
+
+// @ts-ignore
+await config.writeBundles({ $fs: fs, $import, bundles });

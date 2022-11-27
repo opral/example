@@ -2,15 +2,41 @@
 export const config = {
   referenceBundleId: "en",
   bundleIds: ["en", "de", "fr"],
-  readBundles: async ({ $import }) => {
+  readBundles: async ({ $import, $fs }) => {
     return await Promise.all(
       config.bundleIds.map(async (id) => {
-        const resource = (await $import(`./resources/${id}.js`)).default;
-        return bundleFrom(resourceFrom(resource), id);
+        const module = await $import(`./resources/${id}.js`);
+        return bundleFrom(resourceFrom(module.default), id);
+      })
+    );
+  },
+  writeBundles: async ({ $import, bundles, $fs }) => {
+    await Promise.all(
+      bundles.map(async (bundle) => {
+        await $fs.writeFile(
+          `./resources/${bundle.id.name}.js`,
+          serializeResource(bundle.resources[0]),
+          {
+            encoding: "utf8",
+          }
+        );
       })
     );
   },
 };
+
+/**
+ *
+ * @param {import("@inlang/core/ast").Resource} resource}
+ */
+function serializeResource(resource) {
+  const obj = {};
+  for (const message of resource.body) {
+    // @ts-ignore
+    obj[message.id.name] = message.pattern.elements[0].value;
+  }
+  return "export default " + JSON.stringify(obj, null, 2);
+}
 
 /**
  *
@@ -31,7 +57,7 @@ function bundleFrom(resource, bundleId) {
 
 /**
  *
- * @param {import("./resources/types.js").Resource} obj
+ * @param {Record<string, string>} obj
  * @returns {import("@inlang/core/ast").Resource}
  */
 function resourceFrom(obj) {

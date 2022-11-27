@@ -1,6 +1,3 @@
-/**
- * @type {import('./types.js').Resource}
- */
 export default {
-  hello: "bonjour {{name}}, comment vas-tu?",
-};
+  "hello": "bonjour {{name}}, comment vas-tu?"
+}
