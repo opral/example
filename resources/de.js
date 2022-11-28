@@ -1,6 +1,6 @@
 export default {
   "hello": "hallo {{name}}, wie geht es dir?",
-  "shoeDescription": "Dies ist ein brillianter Schuh!d",
+  "shoeDescription": "Dies ist ein brillianter Schuh!",
   "new": "NE",
   "inputQuestion": "Wie lautet der Name des Schuhs?",
   "categoryFashion": "Mode",
