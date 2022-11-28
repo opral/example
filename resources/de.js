@@ -4,5 +4,6 @@ export default {
   "new": "NEU",
   "inputQuestion": "Wie lautet der Name des Schuhs?",
   "categoryFashion": "Mode",
-  "categoryProducts": "Produkte"
+  "categoryProducts": "Produkte",
+  "shoeCardTitle": "Kaufe {{name}}"
 }
