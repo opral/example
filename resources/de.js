@@ -3,5 +3,6 @@ export default {
   "shoeDescription": "Dies ist ein brillianter Schuh!",
   "new": "NEU",
   "inputQuestion": "Wie lautet der Name des Schuhs?",
-  "categoryFashion": "Mode"
+  "categoryFashion": "Mode",
+  "categoryProducts": "Produkte"
 }
