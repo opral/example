@@ -1,5 +1,5 @@
 export default {
-  hello: "bonjour {{name}}, comment vas-tu?",
-  shoeCardTitle: "Acheter",
-  categoryProducts: "Produit",
-};
+  "hello": "bonjour {{name}}, comment vas-tu?",
+  "shoeCardTitle": "Acheter",
+  "categoryProducts": "Produit"
+}
