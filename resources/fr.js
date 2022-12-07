@@ -1,4 +1,3 @@
 export default {
-  "hello": "bonjour {{name}}, comment vas-tu?",
-  "inputQuestion": ""
-}
+  hello: "bonjour {{name}}, comment vas-tu?",
+};
