@@ -3,5 +3,6 @@ export default {
   "shoeCardTitle": "Kaufe {{name}}",
   "new": "Neu",
   "inputQuestion": "Wie lautet der Name von den Schuhen?d",
-  "categoryFashion": "Mode"
+  "categoryFashion": "Mode",
+  "shoeDescription": "dd"
 }
