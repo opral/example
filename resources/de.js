@@ -4,5 +4,5 @@ export default {
   "new": "Neu!",
   "inputQuestion": "Wie lautet der Name von den Schuhen",
   "categoryFashion": "Mode",
-  "shoeDescription": "dd"
+  "shoeDescription": "i guess ja mal gucken ob das geht "
 }
