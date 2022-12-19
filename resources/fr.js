@@ -3,5 +3,6 @@ export default {
   "shoeCardTitle": "Acheter",
   "categoryProducts": "Produit",
   "new": "ds. ",
-  "categoryFashion": " "
+  "categoryFashion": " ",
+  "shoeDescription": "  "
 }
