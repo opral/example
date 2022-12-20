@@ -2,7 +2,7 @@ export default {
   "hello": "hallo {{name}}, wie geht es dir?",
   "shoeCardTitle": "Kaufe {{name}}",
   "new": "Neu",
-  "inputQuestion": "und macht er das jetzt ",
+  "inputQuestion": "Wie ist der Name des Schuhs?",
   "categoryFashion": "Mode",
   "shoeDescription": "i guess ja mal gucken ob das geht "
 }
