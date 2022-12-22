@@ -7,10 +7,12 @@ export async function config({ $import }) {
     "./inlang.config.module.js"
   );
 
+  const bundleIds = ["en", "de", "fr"];
+
   return {
     referenceBundleId: "en",
-    bundleIds: ["en", "de", "fr"],
-    readBundles: readBundles,
+    bundleIds: bundleIds,
+    readBundles: (args) => readBundles({ ...args, bundleIds }),
     writeBundles: writeBundles,
   };
 }
