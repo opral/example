@@ -12,7 +12,7 @@ export const readBundles = async ({ $import, bundleIds }) => {
   );
 };
 
-export const writeBundles = async ({ $import, bundles, $fs }) => {
+export const writeBundles = async ({ bundles, $fs }) => {
   await Promise.all(
     bundles.map(async (bundle) => {
       await $fs.writeFile(
