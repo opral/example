@@ -1,18 +1,18 @@
 /**
- *
  * @type {import("@inlang/core/config").Config}
  */
-export async function config({ $import }) {
-  const { readBundles, writeBundles } = await $import(
-    "./inlang.config.module.js"
-  );
-
-  const bundleIds = ["en", "de", "fr"];
+export async function config(env) {
+  const plugin = await env.$import("./inlang.plugin.js");
+  const pluginConfig = {
+    pathPattern: "./resources/{bundleId}.js",
+  };
 
   return {
     referenceBundleId: "en",
-    bundleIds: bundleIds,
-    readBundles: (args) => readBundles({ ...args, bundleIds }),
-    writeBundles: writeBundles,
+    bundleIds: ["en", "de", "fr"],
+    readBundles: (args) =>
+      plugin.readBundles({ ...args, ...env, pluginConfig }),
+    writeBundles: (args) =>
+      plugin.writeBundles({ ...args, ...env, pluginConfig }),
   };
 }

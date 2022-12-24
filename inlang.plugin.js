@@ -1,27 +1,38 @@
 // @ts-nocheck
+// example plugin
 
 /**
- * @type {import("@inlang/core/config").Config['readBundles']}
+ * Plugin config.
+ *
+ * @typedef {Object} PluginConfig
+ * @property {string} pathPattern
+ *  Defines the path pattern for the bundles.
+ *  For example `./resources/{bundleId}.js`.
  */
-export const readBundles = async ({ $import, bundleIds }) => {
+
+/**
+ * @returns {import("@inlang/core/config".Config['readBundles'])}
+ */
+export const readBundles = async ({ $import, pluginConfig }) => {
   return await Promise.all(
-    bundleIds.map(async (id) => {
-      const module = await $import(`./resources/${id}.js`);
+    config.bundleIds.map(async (id) => {
+      const path = pluginConfig.pathPattern.replace("{bundleId}", id);
+      const module = await $import(path);
       return bundleFrom(resourceFrom(module.default), id);
     })
   );
 };
 
-export const writeBundles = async ({ bundles, $fs }) => {
+export const writeBundles = async ({ $fs, bundles, pluginConfig }) => {
   await Promise.all(
     bundles.map(async (bundle) => {
-      await $fs.writeFile(
-        `./resources/${bundle.id.name}.js`,
-        serializeResource(bundle.resources[0]),
-        {
-          encoding: "utf8",
-        }
+      const path = pluginConfig.pathPattern.replace(
+        "{bundleId}",
+        bundle.id.name
       );
+      await $fs.writeFile(path, serializeResource(bundle.resources[0]), {
+        encoding: "utf8",
+      });
     })
   );
 };
