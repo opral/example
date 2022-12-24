@@ -4,5 +4,6 @@ export default {
   "categoryProducts": "Produit",
   "new": "Nieuw",
   "categoryFashion": " ",
-  "shoeDescription": "  "
+  "shoeDescription": "  ",
+  "inputQuestion": "dsad"
 }
