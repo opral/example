@@ -13,7 +13,7 @@
 /**
  * @returns {import("@inlang/core/config".Config['readBundles'])}
  */
-export const readBundles = async ({ $import, pluginConfig }) => {
+export const readBundles = async ({ $import, config, pluginConfig }) => {
   return await Promise.all(
     config.bundleIds.map(async (id) => {
       const path = pluginConfig.pathPattern.replace("{bundleId}", id);
