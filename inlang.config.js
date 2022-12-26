@@ -4,7 +4,7 @@
 export async function config({ $import }) {
   const plugin = await $import("./inlang.plugin.js");
   const pluginConfig = {
-    pathPattern: "./resources/{bundleId}.js",
+    pathPattern: "./resources/{language}.js",
   };
 
   return {
