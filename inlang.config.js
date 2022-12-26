@@ -1,5 +1,5 @@
 /**
- * @type {import("@inlang/core/config").Config}
+ * @type {import("@inlang/core/config").InitializeConfig}
  */
 export async function config({ $import }) {
   const plugin = await $import("./inlang.plugin.js");
@@ -8,9 +8,9 @@ export async function config({ $import }) {
   };
 
   return {
-    referenceBundleId: "en",
-    bundleIds: ["en", "de", "fr"],
-    readBundles: (args) => plugin.readBundles({ ...args, pluginConfig }),
-    writeBundles: (args) => plugin.writeBundles({ ...args, pluginConfig }),
+    referenceLanguage: "en",
+    languages: ["en", "de", "fr"],
+    readResources: (args) => plugin.readResources({ ...args, pluginConfig }),
+    writeResources: (args) => plugin.writeResources({ ...args, pluginConfig }),
   };
 }

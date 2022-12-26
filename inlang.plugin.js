@@ -1,4 +1,3 @@
-// @ts-nocheck
 // example plugin
 
 /**
@@ -7,33 +6,40 @@
  * @typedef {Object} PluginConfig
  * @property {string} pathPattern
  *  Defines the path pattern for the bundles.
- *  For example `./resources/{bundleId}.js`.
+ *  For example `./resources/{language}.js`.
  */
 
 /**
- * @returns {import("@inlang/core/config".Config['readBundles'])}
+ * @param { Record<string, any> } args
+ * @returns {ReturnType<import("@inlang/core/config").Config['readResources']>}
  */
-export const readBundles = async ({ $import, config, pluginConfig }) => {
+export const readResources = async ({ $import, config, pluginConfig }) => {
   return await Promise.all(
-    config.bundleIds.map(async (id) => {
-      const path = pluginConfig.pathPattern.replace("{bundleId}", id);
+    config.languages.map(async (/** @type {string} */ id) => {
+      const path = pluginConfig.pathPattern.replace("{language}", id);
       const module = await $import(path);
-      return bundleFrom(resourceFrom(module.default), id);
+      return resourceFrom(module.default, id);
     })
   );
 };
 
-export const writeBundles = async ({ $fs, bundles, pluginConfig }) => {
+/**
+ * @param { Record<string, any> } args
+ * @returns {ReturnType<import("@inlang/core/config").Config['writeResources']>}
+ */
+export const writeResources = async ({ $fs, resources, pluginConfig }) => {
   await Promise.all(
-    bundles.map(async (bundle) => {
-      const path = pluginConfig.pathPattern.replace(
-        "{bundleId}",
-        bundle.id.name
-      );
-      await $fs.writeFile(path, serializeResource(bundle.resources[0]), {
-        encoding: "utf8",
-      });
-    })
+    resources.map(
+      async (/** @type { import("@inlang/core/ast").Resource } */ resource) => {
+        const path = pluginConfig.pathPattern.replace(
+          "{language}",
+          resource.id.name
+        );
+        await $fs.writeFile(path, serializeResource(resource), {
+          encoding: "utf8",
+        });
+      }
+    )
   );
 };
 
@@ -52,30 +58,18 @@ function serializeResource(resource) {
 
 /**
  *
- * @param {import("@inlang/core/ast").Resource} resource
- * @param {import("@inlang/core/ast").Bundle['id']['name']} bundleId
- * @returns {import("@inlang/core/ast").Bundle}
- */
-function bundleFrom(resource, bundleId) {
-  return {
-    type: "Bundle",
-    id: {
-      type: "Identifier",
-      name: bundleId,
-    },
-    resources: [resource],
-  };
-}
-
-/**
- *
  * @param {Record<string, string>} obj
+ * @param {string} id
  * @returns {import("@inlang/core/ast").Resource}
  */
-function resourceFrom(obj) {
+function resourceFrom(obj, id) {
   return {
     type: "Resource",
-    id: { type: "Identifier", name: "default" },
+    id: { type: "Identifier", name: id },
+    languageTag: {
+      type: "LanguageTag",
+      language: id,
+    },
     body: Object.entries(obj).map(([key, value]) => {
       return {
         type: "Message",
