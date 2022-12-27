@@ -1,6 +1,6 @@
 export default {
   "hello": "bonjour {{name}}, comment vas-tu?",
-  "shoeCardTitle": "Acheter",
+  "shoeCardTitle": "ich glaube das klappt jetzt oder ? ",
   "categoryProducts": "Produit",
   "new": "Nieu",
   "categoryFashion": " ",
