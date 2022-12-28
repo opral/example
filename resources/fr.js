@@ -1,9 +1,9 @@
 export default {
   "hello": "bonjour {{name}}, comment vas-tu?",
-  "shoeCardTitle": "Acheter!",
+  "shoeCardTitle": "ich glaube das klappt jetzt oder ? ",
   "categoryProducts": "Produit",
-  "new": "Nieuw",
+  "new": "Nieu",
   "categoryFashion": " ",
   "shoeDescription": "  ff",
-  "inputQuestion": "dsad"
+  "inputQuestion": "da da da"
 }
