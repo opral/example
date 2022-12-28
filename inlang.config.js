@@ -1,8 +1,9 @@
 /**
  * @type {import("@inlang/core/config").InitializeConfig}
  */
-export async function config({ $import }) {
-  const plugin = await $import("./inlang.plugin.js");
+export async function config(env) {
+  const plugin = await env.$import("./inlang.plugin.js");
+
   const pluginConfig = {
     pathPattern: "./resources/{language}.js",
   };
@@ -10,7 +11,9 @@ export async function config({ $import }) {
   return {
     referenceLanguage: "en",
     languages: ["en", "de", "fr"],
-    readResources: (args) => plugin.readResources({ ...args, pluginConfig }),
-    writeResources: (args) => plugin.writeResources({ ...args, pluginConfig }),
+    readResources: (args) =>
+      plugin.readResources({ ...args, ...env, pluginConfig }),
+    writeResources: (args) =>
+      plugin.writeResources({ ...args, ...env, pluginConfig }),
   };
 }
