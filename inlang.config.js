@@ -2,10 +2,12 @@
  * @type {import("@inlang/core/config").InitializeConfig}
  */
 export async function config(env) {
-  const plugin = await env.$import("./inlang.plugin.js");
+  const plugin = await env.$import(
+    "https://cdn.jsdelivr.net/gh/inlang/plugin-template/dist/index.js"
+  );
 
   const pluginConfig = {
-    pathPattern: "./resources/{language}.js",
+    pathPattern: "./resources/{language}.json",
   };
 
   return {
