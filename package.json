@@ -3,12 +3,12 @@
   "private": true,
   "scripts": {
     "_build_comment": "compiling typescript css file, then running vite ",
-    "build": "npx tailwindcss -i ./src/style.css -o ./public/style.minified.css vite build",
+    "build": "npx tailwindcss -i ./src/style.css -o ./public/style.minified.css && vite build",
     "_dev_comment": "concurrently running tailwind cli and vite ",
     "dev": "concurrently \"vite\" \"npx tailwindcss -i ./src/style.css -o ./public/style.minified.css --watch\""
   },
   "devDependencies": {
-    "@inlang/core": "^0.3.0-prerelease.4",
+    "@inlang/core": "^0.3.0-prerelease.6",
     "concurrently": "^7.5.0",
     "tailwindcss": "^3.2.4",
     "typescript": "^4.8.2",
