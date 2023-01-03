@@ -3,5 +3,6 @@
   "shoeCardTitle": "Kaufe {{name}}",
   "categoryFashion": "Mode",
   "shoeDescription": "Dies ist ein brillanter Schuh, den Sie kaufen sollten! Oder zeigt das Bild vielleicht etwas anderes?",
-  "categoryProducts": "Produkte"
+  "categoryProducts": "Produkte",
+  "inputQuestion": "Wie heißt der Schuh?"
 }
