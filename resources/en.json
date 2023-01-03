@@ -1,5 +1,5 @@
 {
-  "shoeDescription": "This is a brilliant shoe that you should buy! Or maybe the image is displaying something else?",
+  "shoeDescription": "This is NOT a brilliant shoe that you should buy! Or maybe the image is displaying something else?",
   "inputQuestion": "What is the name of the shoe? ",
   "categoryFashion": "Fashion",
   "shoeCardTitle": "Buy {{name}}",
