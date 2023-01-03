@@ -1,7 +1,5 @@
 {
   "hello": "bonjour {{name}}, comment vas-tu?",
   "shoeCardTitle": "Acheter {{name}}",
-  "categoryProducts": "Produit",
-  "new": "Nieu",
-  "inputQuestion": "Quel est le nom de la chaussure ?"
+  "categoryProducts": "Produit"
 }
