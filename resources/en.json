@@ -4,5 +4,6 @@
   "new": "NEW",
   "shoeDescription": "This is a brilliant shoe that you should buy! Or maybe the image is displaying something else?",
   "categoryFashion": "Fashion",
-  "categoryProducts": "Products"
+  "categoryProducts": "Products",
+  "example": "Products"
 }
