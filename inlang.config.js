@@ -4,7 +4,7 @@ export async function initializeConfig(env) {
   );
 
   const pluginConfig = {
-    pathPattern: "./{language}.json",
+    pathPattern: "./resources/{language}.json",
   };
 
   return {
