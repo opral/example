@@ -1,6 +1,6 @@
 {
   "hello": "hallo {{name}}, wie geht es dir?",
-  "shoeCardTitle": "Kaufe {{name}}",
+  "shoeCardTitle": "Kaufe {{name}",
   "categoryFashion": "Mode",
   "shoeDescription": "Dies ist KEIN brillanter Schuh, den Sie kaufen sollten! Oder zeigt das Bild vielleicht etwas anderes?",
   "categoryProducts": "Produkte",
