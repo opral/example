@@ -1,9 +1,9 @@
 {
-  "shoeDescription": "This is NOT a brilliant shoe that you should buy! Or maybe the image is displaying something els",
+  "shoeDescription": "This is NOT a brilliant shoe that yoshod buy!Or maybe the image is displaying something els",
   "inputQuestion": "What is the name of the sh",
   "categoryFashion": "Fashion",
   "shoeCardTitle": "Buy {{name}}",
   "new": "NEW",
-  "categoryProducts": "Products",
+  "categoryProducts": "Product",
   "example": "Products"
 }
