@@ -12,8 +12,6 @@ export async function initializeConfig(env) {
     pathPattern: "./resources/{language}.json",
   };
   
-  throw Error("error in initializeConfig");
-
   return {
     referenceLanguage: "en",
     languages: ["en", "de", "fr"],
