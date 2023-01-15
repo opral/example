@@ -11,6 +11,8 @@ export async function initializeConfig(env) {
   const pluginConfig = {
     pathPattern: "./resources/{language}.json",
   };
+  
+  throw Error("error in initializeConfig");
 
   return {
     referenceLanguage: "en",
