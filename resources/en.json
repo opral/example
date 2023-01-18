@@ -6,5 +6,5 @@
   "new": "NEW das ist interessant",
   "categoryProducts": "Product",
   "example": "Products are cool!",
-  "hello": "afaff"
+  "hello": "Hello {{name}}, how are you?"
 }
