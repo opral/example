@@ -14,7 +14,7 @@ export async function initializeConfig(env) {
   
   return {
     referenceLanguage: "en",
-    languages: ["en", "de", "fr-che"],
+    languages: ["en", "de", "fr"],
     readResources: (args) => {
       return plugin.readResources({ ...args, ...env, pluginConfig });
       // reading resources
