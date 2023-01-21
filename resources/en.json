@@ -1,9 +1,10 @@
 {
-  "shoeDescription": "This is NOT a brilliant shoe that yoshod buy!Or maybe the image is displaying something els",
+  "shoeDescription": "This is not brilliant this is spart",
   "inputQuestion": "What is the name of the sh",
-  "categoryFashion": "Fashion",
-  "shoeCardTitle": "Buy {{name}}",
-  "new": "NEW",
+  "categoryFashion": "Fashion is a nice technology",
+  "shoeCardTitle": "Buy {{name}}sfsdf s ",
+  "new": "NEW das ist interessant",
   "categoryProducts": "Product",
-  "example": "Products are cool!"
+  "example": "Products are cool!",
+  "hello": "Hello {{name}}, how are you?"
 }

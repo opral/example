@@ -11,7 +11,7 @@ export async function defineConfig(env) {
   const pluginConfig = {
     pathPattern: "./resources/{language}.json",
   };
-
+  
   return {
     referenceLanguage: "en",
     languages: ["en", "de", "fr"],

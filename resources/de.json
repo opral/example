@@ -1,8 +1,8 @@
 {
   "hello": "hallo {{name}}, wie geht es dir?",
   "shoeCardTitle": "Kaufe {{name}",
-  "categoryFashion": "Mode",
-  "shoeDescription": "Dies ist KEIN brillanter Schuh, den Sie kaufen ollten!der zeigt das Bild vielffleicht etwas anderes?fd",
+  "categoryFashion": "Bekleidung",
+  "shoeDescription": "Dies ist KEIN brillanter Schuh, den Sie kauen ollten!der zeigt das Bild vielffleicht etffs anderes?",
   "categoryProducts": "Produkte",
   "inputQuestion": "Wie heißt der Schuh?",
   "new": "Neus",
