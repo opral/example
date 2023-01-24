@@ -3,6 +3,6 @@
   "shoeCardTitle": "Kaufe {{name}",
   "categoryFashion": "Bekleidung",
   "shoeDescription": "Das ist nicht brillant, das ist spart",
-  "categoryProducts": "Produkte"
-
+  "categoryProducts": "Produkte",
+  "example": "Produkte sind cool!"
 }
