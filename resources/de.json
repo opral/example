@@ -2,7 +2,7 @@
   "hello": "hallo {{name}}, wie geht es dir?",
   "shoeCardTitle": "Kaufe {{name}",
   "categoryFashion": "Bekleidung",
-  "shoeDescription": "Das ist nicht brillant.......",
+  "shoeDescription": "Das ist nicht brillant",
   "categoryProducts": "Produkte",
   "example": "Produkte sind cool!",
   "new": "NEU das ist interessant",
