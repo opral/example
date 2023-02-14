@@ -12,7 +12,7 @@ export async function defineConfig(env) {
    */
   let plugin;
   // eslint-disable-next-line unicorn/prefer-ternary, no-undef
-  if (process && process.version === 'v16.14.2') {
+  if (typeof process !== 'undefined' && process.version === 'v16.14.2') {
     plugin = await import("./.inlang/inlang-plugin-json.js");
   } else {
     plugin = await env.$import(
