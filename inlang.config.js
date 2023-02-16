@@ -39,11 +39,9 @@ export async function defineConfig(env) {
     ideExtension: {
       extractMessageOptions: [
         {
-          id: "As JSX string",
           callback: (/** @type {string} */ messageId) => `{t("${messageId}")}`,
         },
         {
-          id: "As JS string",
           callback: (/** @type {string} */ messageId) => `t("${messageId}")`,
         },
       ],
