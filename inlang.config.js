@@ -35,7 +35,7 @@ export async function defineConfig(env) {
       return plugin.writeResources({ ...args, ...env, pluginConfig });
     },
     ideExtension: {
-      translationFinders: [
+      messageFinders: [
         async (/** @type {{ "documentText": string; }} */ args) => {
           const regex = /{?t\(['"](?<messageId>\S+)['"]\)}?/gm;
           const str = args.documentText;
