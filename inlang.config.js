@@ -1,8 +1,7 @@
 /**
  * Using JSDoc to get typesafety.
  *
- * *@type {import("@inlang/core/config").DefineConfig}
- * @type {import("../../core/dist/config/index.js").DefineConfig}
+ * @type {import("@inlang/core/config").DefineConfig}
  */
 export async function defineConfig(env) {
   /**
