@@ -36,7 +36,7 @@ export async function defineConfig(env) {
     ideExtension: {
       messageReferenceMatchers: [
         async (/** @type {{ "documentText": string; }} */ args) => {
-          const regex = /{?t\(['"](?<messageId>\S+)['"]\)}?/gm;
+          const regex = /(?<!\w){?t\(['"](?<messageId>\S+)['"]\)}?/gm;
           const str = args.documentText;
           let match;
           const result = [];
