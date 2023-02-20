@@ -34,6 +34,9 @@ export async function defineConfig(env) {
       return plugin.writeResources({ ...args, ...env, pluginConfig });
     },
     ideExtension: {
+      preview: {
+        maximumLength: 40,
+      },
       messageReferenceMatchers: [
         async (/** @type {{ "documentText": string; }} */ args) => {
           const regex = /(?<!\w){?t\(['"](?<messageId>\S+)['"]\)}?/gm;
