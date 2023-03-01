@@ -40,12 +40,12 @@ export function App() {
       </div>
       <div class="card w-full bg-base-100 shadow">
         <figure>
-          <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+          <img src="https://source.unsplash.com/400x225/?shoes,commerical" alt="Shoes" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">
             {t("shoeCardTitle", { name: shoeName() })}
-            <div class="badge badge-secondary">{t("new")}</div>
+            <div class="badge badge-secondary text-center h-fit">{t("new")}</div>
           </h2>
           <p>{t("shoeDescription")}</p>
           <div class="card-actions justify-end">
