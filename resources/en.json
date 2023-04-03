@@ -1,0 +1,37 @@
+{
+  "title": "My Awesome Todo App",
+  "description": "This is a simple todo app that showcases Inlang in a real world application.",
+  "app": {
+    "today": "Today, {date}",
+    "placeholder": "internationalize application",
+    "nrOfTodos": "You have {count} tasks",
+    "addTodo": "Add new",
+    "deleteTodo": "Delete",
+    "markAsDone": "Mark as done",
+    "markAsIncomplete": "Mark as incomplete"
+  },
+  "pages": {
+    "404": {
+      "title": "Page not found",
+      "cta": "Click here to return to the homepage"
+    }
+  },
+  "server": {
+    "error": "Something went wrong",
+    "logs": {
+      "loaded": "Loaded {count} todos",
+      "added": "'{id}' added a new todo",
+      "deleted": "'{id}' deleted a todo",
+      "completed": "'{id}' marked a todo as done",
+      "incompleted": "'{id}' marked a todo as incomplete"
+    }
+  },
+  "languageSwitcher": {
+    "chooseLanguage": "Choose language",
+    "autoDetect": "Auto detect"
+  },
+  "footer": {
+    "madeBy": "Made with ❤️ by Inlang",
+    "linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
+  }
+}
