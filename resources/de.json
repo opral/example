@@ -1,37 +1,37 @@
 {
-	"title": "Meine Coole Todo Anwendung",
-	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
-	"app": {
-		"today": "Heute, {date}",
-		"placeholder": "Anwendung internationalisieren",
-		"nrOfTodos": "Sie haben {count} Aufgaben",
-		"addTodo": "Neu hinzufügen",
-		"deleteTodo": "Löschen",
-		"markAsDone": "Als erledigt markieren",
-		"markAsIncomplete": "Als unvollständig markieren"
-	},
-	"pages": {
-		"404": {
-			"title": "Seite nicht gefunden",
-			"cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
-		}
-	},
-	"server": {
-		"error": "Etwas ist schief gelaufen",
-		"logs": {
-			"loaded": "{count} Todos geladen",
-			"added": "'{id}' hat ein neues Todo hinzugefügt",
-			"deleted": "'{id}' hat ein Todo gelöscht",
-			"completed": "'{id}' hat ein Todo als erledigt markiert",
-			"incompleted": "'{id}' hat ein Todo als unvollständig markiert"
-		}
-	},
-	"languageSwitcher": {
-		"chooseLanguage": "Sprache wählen",
-		"autoDetect": "Automatisch erkennen"
-	},
-	"footer": {
-		"madeBy": "Mit ❤️ von Inlang erstellt",
-		"linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a>um mehr über Inlang zu erfahren."
-	}
+  "title": "Meine Coole Todo Anwendung",
+  "description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
+  "app": {
+    "today": "Heute, {date}",
+    "placeholder": "Anwendung internationalisieren",
+    "nrOfTodos": "Sie haben {count} Aufgaben",
+    "addTodo": "Neu hinzufügen",
+    "deleteTodo": "Löschen",
+    "markAsDone": "Als erledigt markieren",
+    "markAsIncomplete": "Als unvollständig markieren"
+  },
+  "pages": {
+    "404": {
+      "title": "Seite nicht gefunden",
+      "cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
+    }
+  },
+  "server": {
+    "error": "Etwas ist schief gelaufen",
+    "logs": {
+      "loaded": "{count} Todos geladen",
+      "added": "'{id}' hat ein neues Todo hinzugefügt",
+      "deleted": "'{id}' hat ein Todo gelöscht",
+      "completed": "'{id}' hat ein Todo als erledigt markiert",
+      "incompleted": "'{id}' hat ein Todo als unvollständig markiert"
+    }
+  },
+  "languageSwitcher": {
+    "chooseLanguage": "Sprache wählen",
+    "autoDetect": "Automatisch erkennen"
+  },
+  "footer": {
+    "madeBy": "Mit ❤️ von Inlang erstellt",
+    "linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a>um mehr über Inlang zu erfahren."
+  }
 }
