@@ -6,7 +6,6 @@
     "placeholder": "Anwendung internationalisieren",
     "nrOfTodos": "Sie haben {count} Aufgaben",
     "addTodo": "Neu hinzufügen",
-    "deleteTodo": "Löschen",
     "markAsDone": "Als erledigt markieren",
     "markAsIncomplete": "Als unvollständig markieren"
   },
@@ -20,7 +19,6 @@
     "error": "Etwas ist schief gelaufen",
     "logs": {
       "loaded": "{count} Todos geladen",
-      "added": "'{id}' hat ein neues Todo hinzugefügt",
       "deleted": "'{id}' hat ein Todo gelöscht",
       "completed": "'{id}' hat ein Todo als erledigt markiert",
       "incompleted": "'{id}' hat ein Todo als unvollständig markiert"
