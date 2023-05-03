@@ -7,7 +7,8 @@
     "nrOfTodos": "Sie haben {count} Aufgaben",
     "addTodo": "Neu hinzufügen",
     "markAsDone": "Als erledigt markieren",
-    "markAsIncomplete": "Als unvollständig markieren"
+    "markAsIncomplete": "Als unvollständig markieren",
+    "deleteTodo": "Löschen"
   },
   "pages": {
     "404": {
