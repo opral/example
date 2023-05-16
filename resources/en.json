@@ -3,16 +3,24 @@
   "description": "This is a simple todo app that showcases Inlang in a real world application.",
   "app": {
     "today": "Today, {date}",
-    "placeholder": "internationalize application",
     "nrOfTodos": "You have {count} tasks",
-    "addTodo": "Add new",
-    "deleteTodo": "Delete",
     "markAsDone": "Mark as done",
-    "markAsIncomplete": "Mark as incomplete"
+    "markAsIncomplete": "Mark as incomplete",
+    "deleteTodo": "Delete",
+    "placeholder": "internationalize application",
+    "addTodo": "Add new"
   },
   "pages": {
-    "404": {
-      "title": "Page not found",
+    "home": {
+      "goToTodoApp": "go to the Todo application"
+    },
+    "todo": {
+      "goToHome": "go to the homepage"
+    },
+    "error": {
+      "404": {
+        "title": "Page not found"
+      },
       "cta": "Click here to return to the homepage"
     }
   },
@@ -27,10 +35,10 @@
     }
   },
   "languageSwitcher": {
-    "chooseLanguage": "Choose language",
-    "autoDetect": "Auto detect"
+    "chooseLanguage": "Choose language"
   },
   "footer": {
+    "madeBy": "Made with ❤️ by Inlang",
     "linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
   }
 }

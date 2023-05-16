@@ -3,16 +3,24 @@
   "description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
   "app": {
     "today": "Heute, {date}",
-    "placeholder": "Anwendung internationalisieren",
     "nrOfTodos": "Sie haben {count} Aufgaben",
-    "addTodo": "Neu hinzufügen",
     "markAsDone": "Als erledigt markieren",
     "markAsIncomplete": "Als unvollständig markieren",
-    "deleteTodo": "Löschen"
+    "deleteTodo": "Löschen",
+    "placeholder": "Anwendung internationalisieren",
+    "addTodo": "Neu hinzufügen"
   },
   "pages": {
-    "404": {
-      "title": "Seite nicht gefunden",
+    "home": {
+      "goToTodoApp": "zur Todo-Anwendung"
+    },
+    "todo": {
+      "goToHome": "zur Startseite"
+    },
+    "error": {
+      "404": {
+        "title": "Seite nicht gefunden"
+      },
       "cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
     }
   },
@@ -20,17 +28,17 @@
     "error": "Etwas ist schief gelaufen",
     "logs": {
       "loaded": "{count} Todos geladen",
+      "added": "'{id}' hat ein Todo erstellt",
       "deleted": "'{id}' hat ein Todo gelöscht",
       "completed": "'{id}' hat ein Todo als erledigt markiert",
       "incompleted": "'{id}' hat ein Todo als unvollständig markiert"
     }
   },
   "languageSwitcher": {
-    "chooseLanguage": "Sprache wählen",
-    "autoDetect": "Automatisch erkennen"
+    "chooseLanguage": "Sprache wählen"
   },
   "footer": {
     "madeBy": "Mit ❤️ von Inlang erstellt",
-    "linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a>um mehr über Inlang zu erfahren."
+    "linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a> um mehr über Inlang zu erfahren."
   }
 }
