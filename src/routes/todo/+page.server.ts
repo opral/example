@@ -21,8 +21,8 @@ export const actions = {
 		const data = await request.formData()
 		const title = data.get('title')
 		// TODO: translate
-		if (!title) return fail(400, { error: i('server.error.missingField') })
-		if (!(typeof title === 'string')) return fail(400, { error: i('server.error.incorrectField') })
+		if (!title) return fail(400, { error: i('server.error.missingField', { field: 'title' }) })
+		if (!(typeof title === 'string')) return fail(400, { error: i('server.error.incorrectField', { field: 'title' }) })
 
 		const todo: Todo = {
 			id: uuid(),
@@ -43,8 +43,8 @@ export const actions = {
 		const data = await request.formData()
 		const id = data.get('id')
 		// TODO: translate
-		if (!id) return fail(400, { error: i('server.error.missingField') })
-		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField') })
+		if (!id) return fail(400, { error: i('server.error.missingField', { field: 'id' }) })
+		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField', { field: 'id' }) })
 
 		const { userId } = locals
 		const todos = db.get(userId) || []
@@ -63,8 +63,8 @@ export const actions = {
 		const data = await request.formData()
 		const id = data.get('id')
 		// TODO: translate
-		if (!id) return fail(400, { error: i('server.error.missingField') })
-		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField') })
+		if (!id) return fail(400, { error: i('server.error.missingField', { field: 'id' }) })
+		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField', { field: 'id' }) })
 
 		const { userId } = locals
 		const todos = db.get(userId) || []

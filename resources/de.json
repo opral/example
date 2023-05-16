@@ -27,8 +27,8 @@
   "server": {
     "error": {
       "generic": "Etwas ist schief gelaufen",
-      "missingField": "Das Feld '{attribute}' ist nicht gesetzt",
-      "incorrectField": "Das Feld '{attribute}' hat einen ungültigen Datentyp"
+      "missingField": "Das Feld '{field}' ist nicht gesetzt",
+      "incorrectField": "Das Feld '{field}' hat einen ungültigen Datentyp"
     },
     "logs": {
       "loaded": "{count} Todos geladen",
