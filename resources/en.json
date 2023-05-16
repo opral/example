@@ -25,7 +25,11 @@
     }
   },
   "server": {
-    "error": "Something went wrong",
+    "error": {
+      "generic": "Something went wrong",
+      "missingField": "The field '{attribute}' is missing",
+      "incorrectField": "The field '{attribute}' has an invalid data type"
+    },
     "logs": {
       "loaded": "Loaded {count} todos",
       "added": "'{id}' added a new todo",

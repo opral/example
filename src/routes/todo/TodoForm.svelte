@@ -5,5 +5,6 @@
 
 <form method="POST" action="?/add" use:enhance>
 	<input name="title" type="text" placeholder={i('app.placeholder')} />
+
 	<button title={i('app.addTodo')}>+</button>
 </form>

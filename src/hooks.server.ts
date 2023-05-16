@@ -25,6 +25,6 @@ export const handleError = async ({ event }) => {
 	const { i } = getRuntimeFromLocals(event.locals)
 
 	return {
-		message: i('server.error'),
+		message: i('server.error.generic'),
 	};
 };

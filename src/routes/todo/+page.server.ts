@@ -16,11 +16,13 @@ export const load = async ({ locals }) => {
 
 export const actions = {
 	add: async ({ request, locals }) => {
+		const { i } = getRuntimeFromLocals(locals)
+
 		const data = await request.formData()
 		const title = data.get('title')
 		// TODO: translate
-		if (!title) return fail(400, { title: 'missing title' })
-		if (!(typeof title === 'string')) return fail(400, { title: 'wrong type' })
+		if (!title) return fail(400, { error: i('server.error.missingField') })
+		if (!(typeof title === 'string')) return fail(400, { error: i('server.error.incorrectField') })
 
 		const todo: Todo = {
 			id: uuid(),
@@ -32,16 +34,17 @@ export const actions = {
 		const todos = db.get(userId) || []
 		db.set(userId, [...todos, todo])
 
-		const { i } = getRuntimeFromLocals(locals)
 		console.log(i('server.logs.added', { id: userId }))
 	},
 
 	toggle: async ({ request, locals }) => {
+		const { i } = getRuntimeFromLocals(locals)
+
 		const data = await request.formData()
 		const id = data.get('id')
 		// TODO: translate
-		if (!id) return fail(400, { id: 'missing id' })
-		if (!(typeof id === 'string')) return fail(400, { id: 'wrong type' })
+		if (!id) return fail(400, { error: i('server.error.missingField') })
+		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField') })
 
 		const { userId } = locals
 		const todos = db.get(userId) || []
@@ -51,22 +54,22 @@ export const actions = {
 				: { ...todo, completed: !todo.completed }
 		))
 
-		const { i } = getRuntimeFromLocals(locals)
 		console.log(i(`server.logs.${'completed'}`, { id: userId }))
 	},
 
 	delete: async ({ request, locals }) => {
+		const { i } = getRuntimeFromLocals(locals)
+
 		const data = await request.formData()
 		const id = data.get('id')
 		// TODO: translate
-		if (!id) return fail(400, { id: 'missing id' })
-		if (!(typeof id === 'string')) return fail(400, { id: 'wrong type' })
+		if (!id) return fail(400, { error: i('server.error.missingField') })
+		if (!(typeof id === 'string')) return fail(400, { error: i('server.error.incorrectField') })
 
 		const { userId } = locals
 		const todos = db.get(userId) || []
 		db.set(userId, todos.filter(todo => todo.id !== id))
 
-		const { i } = getRuntimeFromLocals(locals)
 		console.log(i('server.logs.deleted', { id: userId }))
 	}
 }
