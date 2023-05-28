@@ -12,7 +12,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@inlang/cli": "^0.9.6",
+		"@inlang/cli": "^0.9.9",
 		"@inlang/core": "^0.7.6",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.5.0",
