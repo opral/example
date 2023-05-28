@@ -9,15 +9,20 @@ export async function defineConfig(env) {
 
 	return {
 		referenceLanguage: 'en',
-		plugins: [pluginJson({ 
-			pathPattern: './resources/{language}.json',
-			variableReferencePattern: ["{", "}"]
-		}), standardLintRules()]
+		plugins: [
+			pluginJson({
+				pathPattern: './resources/{language}.json',
+				variableReferencePattern: ['{', '}']
+			}),
+			standardLintRules()
+		],
+		ideExtension
 	};
 }
 
 // TODO factor out ide extension into own plugin / defined by another plugin
 const ideExtension = {
+	documentSelectors: ['svelte'],
 	messageReferenceMatchers: [
 		async (/** @type {{ "documentText": string; }} */ args) => {
 			const regex = /(?<!\w){?t\(['"](?<messageId>\S+)['"]\)}?/gm;
