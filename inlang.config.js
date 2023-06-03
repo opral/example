@@ -17,7 +17,7 @@ export async function defineConfig(env) {
 			standardLintRules()
 		],
 		ideExtension: {
-			documentSelectors: ['svelte'],
+			documentSelectors: [{ language: 'svelte' }],
 			messageReferenceMatchers: [
 				async (/** @type {{ "documentText": string; }} */ args) => {
 					const regex = /(?<!\w){?t\(['"](?<messageId>\S+)['"]\)}?/gm;
