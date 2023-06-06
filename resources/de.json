@@ -3,7 +3,7 @@
   "description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt. asdf",
   "app": {
     "today": "Heute, {date}",
-    "placeholder": "Anwendung internationalisieren",
+    "placeholder": "Anwendung internationalisieren asdf",
     "nrOfTodos": "Sie haben {count} Aufgaben",
     "addTodo": "Neu hinzufügen",
     "markAsDone": "Als erledigt markieren",
