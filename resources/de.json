@@ -3,19 +3,19 @@
   "description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
   "app": {
     "today": "Heute, {date}",
-    "nrOfTodos": "Sie haben {count} Aufgaben",
+    "nrOfTodos": "{count} Aufgaben",
     "markAsDone": "Als erledigt markieren",
     "markAsIncomplete": "Als unvollständig markieren",
     "deleteTodo": "Löschen",
-    "placeholder": "Anwendung internationalisieren",
+    "placeholder": "Todo hinzufügen ...",
     "addTodo": "Neu hinzufügen"
   },
   "pages": {
     "home": {
-      "goToTodoApp": "zur Todo-Anwendung"
+      "goToTodoApp": "Zur Todo-App"
     },
     "todo": {
-      "goToHome": "zur Startseite"
+      "goToHome": "Zurück"
     },
     "error": {
       "404": {

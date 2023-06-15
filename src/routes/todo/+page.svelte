@@ -11,10 +11,10 @@
 	<p>{form.error}</p>
 {/if}
 
-<TodoList todos={data.todos} />
+<div class="flex flex-col h-[450px] gap-4">
 
-<TodoForm />
+	<TodoList todos={data.todos} />
 
-<a href="/">
-	{i('pages.todo.goToHome')}
-</a>
+	<TodoForm />
+
+</div>

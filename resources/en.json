@@ -3,19 +3,19 @@
   "description": "This is a simple todo app that showcases Inlang in a real world application.",
   "app": {
     "today": "Today, {date}",
-    "nrOfTodos": "You have {count} tasks",
+    "nrOfTodos": "{count} tasks",
     "markAsDone": "Mark as done",
     "markAsIncomplete": "Mark as incomplete",
     "deleteTodo": "Delete",
-    "placeholder": "internationalize application",
+    "placeholder": "Add todo...",
     "addTodo": "Add new"
   },
   "pages": {
     "home": {
-      "goToTodoApp": "go to the Todo application"
+      "goToTodoApp": "Enter app"
     },
     "todo": {
-      "goToHome": "go to the homepage"
+      "goToHome": "Back"
     },
     "error": {
       "404": {
