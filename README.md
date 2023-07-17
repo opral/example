@@ -1,4 +1,4 @@
-# inlang demonstration repository 
+# inlang demonstration repository
 
 This repository demonstrates a simple application that uses inlang.
 
@@ -6,13 +6,13 @@ This repository demonstrates a simple application that uses inlang.
 - [resources](./resources/) - The resources are stored as JSON.
 - [src](./src/) - The source code of the application.
 
-## The Badge for more Visibilty in the Readme 
+## The Badge for more Visibilty in the Readme
+
 You can quickly integrate this badge into your readme file. This creates more visibility for missing translations in your community.
 
 - read more about [the badge](https://inlang.com/documentation/badge)
 
 [![translation badge](https://inlang.com/badge?url=github.com/inlang/example)](https://inlang.com/editor/github.com/inlang/example?ref=badge)
-
 
 ## Developing
 
