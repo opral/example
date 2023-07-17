@@ -4,7 +4,7 @@ declare global {
 	namespace App {
 		// interface Error {}
 		interface Locals {
-			userId: string
+			userId: string;
 		}
 		// interface PageData {}
 		// interface Platform {}

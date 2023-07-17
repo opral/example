@@ -1,48 +1,48 @@
 {
-  "title": "Meine Coole Todo Anwendung",
-  "description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
-  "app": {
-    "today": "Heute, {date}",
-    "nrOfTodos": "{count} Aufgaben",
-    "markAsDone": "Als erledigt markieren",
-    "markAsIncomplete": "Als unvollständig markieren",
-    "deleteTodo": "Löschen",
-    "placeholder": "Todo hinzufügen ...",
-    "addTodo": "Neu hinzufügen"
-  },
-  "pages": {
-    "home": {
-      "goToTodoApp": "Zur Todo-App"
-    },
-    "todo": {
-      "goToHome": "Zurück"
-    },
-    "error": {
-      "404": {
-        "title": "Seite nicht gefunden"
-      },
-      "cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
-    }
-  },
-  "server": {
-    "error": {
-      "generic": "Etwas ist schief gelaufen",
-      "missingField": "Das Feld '{field}' ist nicht gesetzt",
-      "incorrectField": "Das Feld '{field}' hat einen ungültigen Datentyp"
-    },
-    "logs": {
-      "loaded": "{count} Todos geladen",
-      "added": "'{id}' hat ein Todo erstellt",
-      "deleted": "'{id}' hat ein Todo gelöscht",
-      "completed": "'{id}' hat ein Todo als erledigt markiert",
-      "incompleted": "'{id}' hat ein Todo als unvollständig markiert"
-    }
-  },
-  "languageSwitcher": {
-    "chooseLanguage": "Sprache wählen"
-  },
-  "footer": {
-    "madeBy": "Mit ❤️ von Inlang erstellt",
-    "linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a> um mehr über Inlang zu erfahren."
-  }
+	"title": "Meine Coole Todo Anwendung",
+	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
+	"app": {
+		"today": "Heute, {date}",
+		"nrOfTodos": "{count} Aufgaben",
+		"markAsDone": "Als erledigt markieren",
+		"markAsIncomplete": "Als unvollständig markieren",
+		"deleteTodo": "Löschen",
+		"placeholder": "Todo hinzufügen ...",
+		"addTodo": "Neu hinzufügen"
+	},
+	"pages": {
+		"home": {
+			"goToTodoApp": "Zur Todo-App"
+		},
+		"todo": {
+			"goToHome": "Zurück"
+		},
+		"error": {
+			"404": {
+				"title": "Seite nicht gefunden"
+			},
+			"cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
+		}
+	},
+	"server": {
+		"error": {
+			"generic": "Etwas ist schief gelaufen",
+			"missingField": "Das Feld '{field}' ist nicht gesetzt",
+			"incorrectField": "Das Feld '{field}' hat einen ungültigen Datentyp"
+		},
+		"logs": {
+			"loaded": "{count} Todos geladen",
+			"added": "'{id}' hat ein Todo erstellt",
+			"deleted": "'{id}' hat ein Todo gelöscht",
+			"completed": "'{id}' hat ein Todo als erledigt markiert",
+			"incompleted": "'{id}' hat ein Todo als unvollständig markiert"
+		}
+	},
+	"languageSwitcher": {
+		"chooseLanguage": "Sprache wählen"
+	},
+	"footer": {
+		"madeBy": "Mit ❤️ von Inlang erstellt",
+		"linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a> um mehr über Inlang zu erfahren."
+	}
 }

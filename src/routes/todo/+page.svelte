@@ -1,5 +1,4 @@
 <script>
-	import { i } from '@inlang/sdk-js';
 	import TodoForm from './TodoForm.svelte';
 	import TodoList from './TodoList.svelte';
 
@@ -12,9 +11,7 @@
 {/if}
 
 <div class="flex flex-col h-[450px] gap-4">
-
 	<TodoList todos={data.todos} />
 
 	<TodoForm />
-
 </div>

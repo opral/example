@@ -1,48 +1,48 @@
 {
-  "title": "My Awesome Todo App",
-  "description": "This is a simple todo app that showcases Inlang in a real world application.",
-  "app": {
-    "today": "Today, {date}",
-    "nrOfTodos": "{count} tasks",
-    "markAsDone": "Mark as done",
-    "markAsIncomplete": "Mark as incomplete",
-    "deleteTodo": "Delete",
-    "placeholder": "Add todo...",
-    "addTodo": "Add new"
-  },
-  "pages": {
-    "home": {
-      "goToTodoApp": "Enter app"
-    },
-    "todo": {
-      "goToHome": "Back"
-    },
-    "error": {
-      "404": {
-        "title": "Page not found"
-      },
-      "cta": "Click here to return to the homepage"
-    }
-  },
-  "server": {
-    "error": {
-      "generic": "Something went wrong",
-      "missingField": "The field '{field}' is missing",
-      "incorrectField": "The field '{field}' has an invalid data type"
-    },
-    "logs": {
-      "loaded": "Loaded {count} todos",
-      "added": "'{id}' added a new todo",
-      "deleted": "'{id}' deleted a todo",
-      "completed": "'{id}' marked a todo as done",
-      "incompleted": "'{id}' marked a todo as incomplete"
-    }
-  },
-  "languageSwitcher": {
-    "chooseLanguage": "Choose language"
-  },
-  "footer": {
-    "madeBy": "Made with ❤️ by Inlang",
-    "linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
-  }
+	"title": "My Awesome Todo App",
+	"description": "This is a simple todo app that showcases Inlang in a real world application.",
+	"app": {
+		"today": "Today, {date}",
+		"nrOfTodos": "{count} tasks",
+		"markAsDone": "Mark as done",
+		"markAsIncomplete": "Mark as incomplete",
+		"deleteTodo": "Delete",
+		"placeholder": "Add todo...",
+		"addTodo": "Add new"
+	},
+	"pages": {
+		"home": {
+			"goToTodoApp": "Enter app"
+		},
+		"todo": {
+			"goToHome": "Back"
+		},
+		"error": {
+			"404": {
+				"title": "Page not found"
+			},
+			"cta": "Click here to return to the homepage"
+		}
+	},
+	"server": {
+		"error": {
+			"generic": "Something went wrong",
+			"missingField": "The field '{field}' is missing",
+			"incorrectField": "The field '{field}' has an invalid data type"
+		},
+		"logs": {
+			"loaded": "Loaded {count} todos",
+			"added": "'{id}' added a new todo",
+			"deleted": "'{id}' deleted a todo",
+			"completed": "'{id}' marked a todo as done",
+			"incompleted": "'{id}' marked a todo as incomplete"
+		}
+	},
+	"languageSwitcher": {
+		"chooseLanguage": "Choose language"
+	},
+	"footer": {
+		"madeBy": "Made with ❤️ by Inlang",
+		"linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
+	}
 }

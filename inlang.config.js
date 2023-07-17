@@ -7,7 +7,7 @@ export async function defineConfig(env) {
 	);
 
 	const { default: sdkPlugin } = await env.$import(
-		"https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.8.1/dist/index.js"
+		'https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.8.1/dist/index.js'
 	);
 
 	const { default: standardLintRules } = await env.$import(
@@ -19,11 +19,11 @@ export async function defineConfig(env) {
 		plugins: [
 			jsonPlugin({
 				pathPattern: './resources/{language}.json',
-				variableReferencePattern: ["{", "}"]
+				variableReferencePattern: ['{', '}']
 			}),
 			sdkPlugin({
 				languageNegotiation: {
-					strategies: [{ type: "localStorage" }],
+					strategies: [{ type: 'localStorage' }]
 				}
 			}),
 			standardLintRules()
