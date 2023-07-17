@@ -1,4 +1,4 @@
-import { getRuntimeFromLocals, addRuntimeToLocals, initSvelteKitServerRuntime } from '@inlang/sdk-js/adapter-sveltekit/server'
+import { getRuntimeFromLocals } from '@inlang/sdk-js/adapter-sveltekit/server'
 import type { Cookies } from '@sveltejs/kit';
 import { v4 as uuid } from 'uuid'
 
@@ -7,8 +7,6 @@ export const handle = ({ resolve, event }) => {
 
 	// TODO: store language in a cookie to access it on the server
 	// currently we need to set this manually
-	const runtime = initSvelteKitServerRuntime({ language: 'en', referenceLanguage: 'en', languages: ['de', 'en'] })
-	addRuntimeToLocals(event.locals, runtime)
 
 	return resolve(event);
 }
