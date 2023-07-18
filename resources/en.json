@@ -3,21 +3,33 @@
 	"description": "This is a simple todo app that showcases Inlang in a real world application.",
 	"app": {
 		"today": "Today, {date}",
-		"placeholder": "internationalize application",
-		"nrOfTodos": "You have {count} tasks",
-		"addTodo": "Add new",
-		"deleteTodo": "Delete",
+		"nrOfTodos": "{count} tasks",
 		"markAsDone": "Mark as done",
-		"markAsIncomplete": "Mark as incomplete"
+		"markAsIncomplete": "Mark as incomplete",
+		"deleteTodo": "Delete",
+		"placeholder": "Add todo...",
+		"addTodo": "Add new"
 	},
 	"pages": {
-		"404": {
-			"title": "Page not found",
+		"home": {
+			"goToTodoApp": "Enter app"
+		},
+		"todo": {
+			"goToHome": "Back"
+		},
+		"error": {
+			"404": {
+				"title": "Page not found"
+			},
 			"cta": "Click here to return to the homepage"
 		}
 	},
 	"server": {
-		"error": "Something went wrong",
+		"error": {
+			"generic": "Something went wrong",
+			"missingField": "The field '{field}' is missing",
+			"incorrectField": "The field '{field}' has an invalid data type"
+		},
 		"logs": {
 			"loaded": "Loaded {count} todos",
 			"added": "'{id}' added a new todo",
@@ -27,10 +39,10 @@
 		}
 	},
 	"languageSwitcher": {
-		"chooseLanguage": "Choose language",
-		"autoDetect": "Auto detect"
+		"chooseLanguage": "Choose language"
 	},
 	"footer": {
+		"madeBy": "Made with ❤️ by Inlang",
 		"linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
 	}
 }

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+    color: #dd3300;
+}
+
+a:hover {
+    text-decoration: underline;
+}

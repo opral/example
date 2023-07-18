@@ -6,12 +6,27 @@ export async function defineConfig(env) {
 		'https://cdn.jsdelivr.net/npm/@inlang/plugin-json@3/dist/index.js'
 	);
 
+	const { default: sdkPlugin } = await env.$import(
+		'https://cdn.jsdelivr.net/npm/@inlang/sdk-js-plugin@0.9.0/dist/index.js'
+	);
+
 	const { default: standardLintRules } = await env.$import(
 		'https://cdn.jsdelivr.net/npm/@inlang/plugin-standard-lint-rules@3/dist/index.js'
 	);
 
 	return {
 		referenceLanguage: 'en',
-		plugins: [jsonPlugin({ pathPattern: 'resources/{language}.json' }), standardLintRules()]
+		plugins: [
+			jsonPlugin({
+				pathPattern: './resources/{language}.json',
+				variableReferencePattern: ['{', '}']
+			}),
+			sdkPlugin({
+				languageNegotiation: {
+					strategies: [{ type: 'localStorage' }]
+				}
+			}),
+			standardLintRules()
+		]
 	};
 }
