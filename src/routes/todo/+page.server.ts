@@ -8,8 +8,8 @@ const db = new Map<string, Todo[]>();
 export const load = async ({ locals }) => {
 	const todos = db.get(locals.userId) || [];
 
-	const { i } = getRuntimeFromLocals(locals);
-	console.log(i('server.logs.loaded', { count: todos.length }));
+	// const { i } = getRuntimeFromLocals(locals);
+	// console.log(i('server.logs.loaded', { count: todos.length }));
 
 	return { todos };
 };
@@ -35,7 +35,7 @@ export const actions = {
 		const todos = db.get(userId) || [];
 		db.set(userId, [...todos, todo]);
 
-		console.log(i('server.logs.added', { id: userId }));
+		// console.log(i('server.logs.added', { id: userId }));
 	},
 
 	toggle: async ({ request, locals }) => {
@@ -55,7 +55,7 @@ export const actions = {
 			todos.map((todo) => (todo.id !== id ? todo : { ...todo, completed: !todo.completed }))
 		);
 
-		console.log(i(`server.logs.${'completed'}`, { id: userId }));
+		// console.log(i(`server.logs.${'completed'}`, { id: userId }));
 	},
 
 	delete: async ({ request, locals }) => {
@@ -75,6 +75,6 @@ export const actions = {
 			todos.filter((todo) => todo.id !== id)
 		);
 
-		console.log(i('server.logs.deleted', { id: userId }));
+		// console.log(i('server.logs.deleted', { id: userId }));
 	}
 };
