@@ -1,0 +1,48 @@
+{
+  "title": "Мой список задач",
+  "description": "Это приложение демонстирует возможности Inlang на рабочем примере.",
+  "app": {
+    "today": "Сегодня: {date}",
+    "nrOfTodos": "Всего задач: {count}",
+    "markAsDone": "Отметить как выполненную",
+    "markAsIncomplete": "Отметить как не выполненную",
+    "deleteTodo": "Удалить",
+    "placeholder": "Добавить задачу...",
+    "addTodo": "Добавить новую"
+  },
+  "pages": {
+    "home": {
+      "goToTodoApp": "Войти в приложение"
+    },
+    "todo": {
+      "goToHome": "Назад"
+    },
+    "error": {
+      "404": {
+        "title": "Страница не найдена"
+      },
+      "cta": "Нажмите тут чтобы вернуться на главную страницу"
+    }
+  },
+  "server": {
+    "error": {
+      "generic": "Что то пошло не так",
+      "missingField": "Поле '{field}' не найдено",
+      "incorrectField": "Поле '{field}' имеет не коректный дата тип"
+    },
+    "logs": {
+      "loaded": "Загружено {count} задач",
+      "added": "'{id}' добавить новую задачу",
+      "deleted": "'{id}' убрать задачу",
+      "completed": "'{id}' отметить задачу как выполненную",
+      "incompleted": "'{id}' отметить задачу как не выполненную"
+    }
+  },
+  "languageSwitcher": {
+    "chooseLanguage": "Выберите язык"
+  },
+  "footer": {
+    "madeBy": "Сделано с ❤️ для Inlang",
+    "linkToDocs": "Кликните на <a href=\"https://www.inlang.com\">ссылку</a> что бы узнать больше об Inlang."
+  }
+}

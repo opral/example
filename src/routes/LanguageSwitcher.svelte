@@ -15,16 +15,11 @@
 			on:click={() => switchLanguage(language)}
 		>
 			<div
-				class={(language === selectedLanguage ? 'text-white ' : 'text-black/70 ') +
-					' relative py-1 px-3 text-md z-20'}
+				class={(language === selectedLanguage ? 'text-white bg-[#f73c02] top-0 rounded-md z-10 shadow-lg ' : 'text-black/70 ') +
+					' relative py-1 px-3 text-md z-20 hover:font-bold'}
 			>
 				{language}
 			</div>
 		</button>
 	{/each}
-
-	<div
-		class={(selectedLanguage === languages[0] ? 'translate-x-[0px] ' : 'translate-x-[42px] ') +
-			'absolute w-[43px] h-[30px] translate-y-[5px] bg-[#f73c02] top-0 rounded-md z-10 shadow-lg '}
-	/>
 </div>
