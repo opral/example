@@ -10,6 +10,9 @@
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@1/dist/index.js"
 	],
 	"settings": {
+		"project.messageLintRuleLevels": {
+			"messageLintRule.inlang.missingTranslation": "error"
+		},
 		"plugin.inlang.json": {
 			"pathPattern": "/resources/{languageTag}.json",
 			"variableReferencePattern": ["{", "}"]
