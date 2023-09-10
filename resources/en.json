@@ -43,6 +43,7 @@
 	},
 	"footer": {
 		"madeBy": "Made with ❤️ by Inlang",
-		"linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang."
+		"linkToDocs": "Visit the <a href=\"https://www.inlang.com\">docs</a> to learn more about Inlang.",
+		"linkToGithub": "View the source code on Github"
 	}
 }
