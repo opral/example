@@ -1,4 +1,5 @@
 {
+	"$schema": "https://inlang.com/schema/project-config",
 	"sourceLanguageTag": "en",
 	"languageTags": ["en", "de"],
 	"modules": [
@@ -9,7 +10,7 @@
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@1/dist/index.js"
 	],
 	"settings": {
-		"inlang.plugin.json": {
+		"plugin.inlang.json": {
 			"pathPattern": "./resources/{language}.json",
 			"variableReferencePattern": ["{", "}"]
 		}
