@@ -3,7 +3,7 @@
 	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
 	"app": {
 		"today": "Heute, {date}sdfsdf sdfd dddoo2dsd",
-		"nrOfTodos": "{count} Aufgaben 444",
+		"nrOfTodos": "{count} Aufgaben 666",
 		"markAsDone": "Als erledigt markieren",
 		"markAsIncomplete": "Als unvollständig markieren",
 		"deleteTodo": "Löschen",
