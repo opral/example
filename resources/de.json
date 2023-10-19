@@ -2,7 +2,7 @@
 	"title": "Meine Coole Todo Anwendung",
 	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
 	"app": {
-		"today": "Heute, {date} branchi branch dev branch",
+		"today": "Heute, {date} branchi branch dev branch2",
 		"nrOfTodos": "{count} Aufgaben 666",
 		"markAsDone": "Als erledigt markieren",
 		"markAsIncomplete": "Als unvollständig markieren",
