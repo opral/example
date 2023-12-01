@@ -1,0 +1,3 @@
+[submodule "test-submodule"]
+	path = test-submodule
+	url = https://github.com/inlang/ci-test-repo
