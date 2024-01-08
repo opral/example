@@ -4,7 +4,7 @@
 	"app": {
 		"today": "Heute, {date}",
 		"nrOfTodos": "{count} Aufgaben",
-		"markAsDone": "als erledigt markieren"
+		"markAsDone": "als erledigt markiert"
 	},
 	"pages": {
 		"home": {
