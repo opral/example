@@ -3,11 +3,11 @@
 	"sourceLanguageTag": "en",
 	"languageTags": ["en", "de"],
 	"modules": [
-		"https://cdn.jsdelivr.net/npm/@inlang/plugin-json@4/dist/index.js",
-		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@1/dist/index.js",
-		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@1/dist/index.js",
-		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-without-source@1/dist/index.js",
-		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-identical-pattern@1/dist/index.js"
+		"https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-without-source@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-identical-pattern@latest/dist/index.js"
 	],
 	"messageLintRuleLevels": {
 		"messageLintRule.inlang.missingTranslation": "error"
