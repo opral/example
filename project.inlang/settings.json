@@ -7,6 +7,7 @@
 	],
 	"modules": [
 		"https://cdn.jsdelivr.net/npm/@inlang/plugin-json@latest/dist/index.js",
+		"https://cdn.jsdelivr.net/npm/@inlang/plugin-t-function-matcher@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-missing-translation@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@latest/dist/index.js",
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-without-source@latest/dist/index.js",
@@ -16,7 +17,7 @@
 		"messageLintRule.inlang.missingTranslation": "error"
 	},
 	"plugin.inlang.json": {
-		"pathPattern": "/resources/{languageTag}.json",
+		"pathPattern": "./resources/{languageTag}.json",
 		"variableReferencePattern": [
 			"{",
 			"}"
