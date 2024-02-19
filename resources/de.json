@@ -4,7 +4,8 @@
 	"app": {
 		"today": "Heute, {date}",
 		"nrOfTodos": "sdf",
-		"markAsDone": "sdf"
+		"markAsDone": "sdf",
+		"markAsIncomplete": "sdf"
 	},
 	"pages": {
 		"home": {
