@@ -3,7 +3,7 @@
 	"description": "This is a simple todo app that showcases Inlang in a real world application.",
 	"app": {
 		"today": "Today, {date}",
-		"nrOfTodos": "{count} tasksss",
+		"nrOfTodos": "{count} taskssss",
 		"markAsDone": "Mark as done",
 		"markAsIncomplete": "Mark as incomplete",
 		"deleteTodo": "Delete",
