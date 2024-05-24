@@ -4,7 +4,7 @@
 	"app": {
 		"today": "Today, {date}",
 		"nrOfTodos": "{count} tasks",
-		"markAsDone": "Mark as done",
+		"markAsDone": "Mark as doned",
 		"markAsIncomplete": "Mark as incomplete",
 		"deleteTodo": "Delete",
 		"placeholder": "Add todo...",
