@@ -1,43 +1,28 @@
 {
 	"title": "Meine tolle Todo Applikatifff",
 	"description": "Dies ist eine einfache Todo-App, die Inlang in einer realen Anwendung zeigt.",
-	"app": {
-		"today": "7ygy8guysh",
-		"nrOfTodos": "{count} Aufgaben",
-		"markAsDone": "als erledigt markiert",
-		"markAsIncomplete": "Als unvollständig Aldwin",
-		"deleteTodo": "Löschen"
-	},
-	"pages": {
-		"home": {
-			"goToTodoApp": "Zur Todo-App"
-		},
-		"todo": {
-			"goToHome": "Zurück"
-		},
-		"error": {
-			"404": {
-				"title": "Seite nicht gefunden"
-			},
-			"cta": "Klicken Sie hier, um zur Startseite zurückzukehren"
-		}
-	},
-	"server": {
-		"error": {
-			"generic": "Etwas ist schief gelaufen",
-			"missingField": "Das Feld '{field}' ist nicht gesetzt",
-			"incorrectField": "Das Feld '{field}' hat einen ungültigen Datentyp"
-		},
-		"logs": {
-			"loaded": "{count} Todos geladen",
-			"added": "'{id}' hat ein Todo erstellt",
-			"deleted": "'{id}' hat ein Todo gelöscht",
-			"completed": "'{id}' hat ein Todo als erledigt markiert",
-			"incompleted": "'{id}' hat ein Todo als unvollständig markiert"
-		}
-	},
-	"footer": {
-		"madeBy": "Mit ❤️ von Inlang erstellt",
-		"linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a> um mehr über Inlang zu erfahren."
-	}
+	
+	"app_today":  "Heute, {date}",
+	"app_nrOfTodos": "{count} Aufgaben",
+	"app_markAsDone": "Als erledigt markiert",
+	"app_markAsIncomplete": "Als unvollständig Aldwin",
+	"app_deleteTodo": "Löschen",
+
+	"pages_home_goToTodoApp": "Zur Todo-App",
+	"pages_todo_goToHome": "Zurück",
+	"pages_error_404_title": "Seite nicht gefunden",
+	"pages_error_cta": "Hier klicken, um zur Startseite zurückzukehren",
+
+	"server_error_generic": "Etwas ist schief gelaufen",
+	"server_error_missingField": "Das Feld '{field}' ist nicht gesetzt",
+	"server_error_incorrectField": "Das Feld '{field}' hat einen ungültigen Datentyp",
+
+	"server_logs_loaded": "{count} Aufgaben geladen",
+	"server_logs_added": "'{id}' hat ein Todo erstellt",
+	"server_logs_deleted": "'{id}' hat ein Todo gelöscht",
+	"server_logs_completed": "'{id}' hat ein Todo als erledigt markiert",
+	"server_logs_incompleted": "'{id}' hat ein Todo als unvollständig markiert",
+
+	"footer_madeBy": "Mit ❤️ von Inlang erstellt",
+	"footer_linkToDocs": "Besuchen Sie die <a href=\"https://www.inlang.com\">Dokumentation</a> um mehr über Inlang zu erfahren."
 }
